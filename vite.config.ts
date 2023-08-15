@@ -29,6 +29,7 @@ export default defineConfig({
       inject: {
         data: {
           title: name,
+          injectScript: `<script src=""></script>`,
         },
       },
     }),
