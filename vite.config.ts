@@ -1,12 +1,11 @@
 import { defineConfig } from "vite";
 import path from "path";
 import react from "@vitejs/plugin-react";
-import pkg from "./package.json";
-
-const BASE_NAME = pkg.name;
+import { name } from "./package.json";
+import { createHtmlPlugin } from "vite-plugin-html";
 
 const IS_PROD = process.env.NODE_ENV === "production";
-const ORIGIN_BASE = `https://static.codefuture.top/${BASE_NAME}/`;
+const ORIGIN_BASE = `https://static.codefuture.top/${name}/`;
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,6 +14,22 @@ export default defineConfig({
       jsxImportSource: "@emotion/react",
       babel: {
         plugins: ["@emotion/babel-plugin"],
+      },
+    }),
+    createHtmlPlugin({
+      minify: true,
+      /**
+       * 在这里写entry后，你将不需要在`index.html`内添加 script 标签，原有标签需要删除
+       * @default src/main.ts
+       */
+      entry: "src/main.tsx",
+      /**
+       * 需要注入 index.html ejs 模版的数据
+       */
+      inject: {
+        data: {
+          title: name,
+        },
       },
     }),
   ],
@@ -32,6 +47,6 @@ export default defineConfig({
   },
   base: IS_PROD ? ORIGIN_BASE : "",
   server: {
-    open: `/${BASE_NAME}`,
+    open: `/${name}`,
   },
 });
