@@ -1,5 +1,5 @@
 {
-  "name": "book",
+  "name": "template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,8 +17,8 @@
   "keke": {
     "group": "",
     "source": "dist",
-    "codename": "",
-    "prefix": ""
+    "codename": "template",
+    "prefix": "template"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",

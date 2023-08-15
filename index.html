@@ -26,6 +26,14 @@
       href="https://m.okjike.com/favicon-16x16.png"
     />
     <title></title>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+      if (
+        window.location.hostname === "localhost" ||
+        window.location.hostname.includes("-beta")
+      )
+        var vConsole = new window.VConsole();
+    </script>
     <script>
       if (window.screen.width < 375) {
         var phoneScale = window.screen.width / 375;
