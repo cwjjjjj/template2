@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   user-select: none;
 
   --body-bg-color: var(--bg-primary-2);
@@ -21,4 +23,6 @@ body {
   user-select: none;
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  box-sizing: border-box;
 }
