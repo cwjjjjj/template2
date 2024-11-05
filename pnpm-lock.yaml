@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@emotion/react':
     specifier: ^11.10.0
-    version: 11.10.0(@babel/core@7.18.10)(@types/react@18.0.17)(react@18.2.0)
+    version: 11.10.0(@babel/core@7.18.10)(@types/react@18.0.17)(react@18.3.1)
   '@ruguoapp/base-js-sdk':
     specifier: ^1.5.0
     version: 1.5.0
@@ -22,7 +22,7 @@ dependencies:
     version: 1.4.0
   '@tanstack/react-query':
     specifier: ^4.0.10
-    version: 4.0.10(react-dom@18.2.0)(react@18.2.0)
+    version: 4.0.10(react-dom@18.2.0)(react@18.3.1)
   '@vitejs/plugin-legacy':
     specifier: ^2.0.0
     version: 2.0.0(terser@5.19.2)(vite@5.4.10)
@@ -36,14 +36,14 @@ dependencies:
     specifier: ^1.2.1
     version: 1.2.1
   react:
-    specifier: ^18.2.0
-    version: 18.2.0
+    specifier: ^18.3.1
+    version: 18.3.1
   react-dom:
     specifier: ^18.2.0
-    version: 18.2.0(react@18.2.0)
+    version: 18.2.0(react@18.3.1)
   react-router-dom:
     specifier: '6'
-    version: 6.3.0(react-dom@18.2.0)(react@18.2.0)
+    version: 6.3.0(react-dom@18.2.0)(react@18.3.1)
 
 devDependencies:
   '@types/node':
@@ -57,7 +57,7 @@ devDependencies:
     version: 18.0.6
   '@types/react-query':
     specifier: ^1.2.9
-    version: 1.2.9(react-dom@18.2.0)(react@18.2.0)
+    version: 1.2.9(react-dom@18.2.0)(react@18.3.1)
   '@vitejs/plugin-react':
     specifier: ^2.0.0
     version: 2.0.0(vite@5.4.10)
@@ -444,7 +444,7 @@ packages:
     resolution: {integrity: sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==}
     dev: false
 
-  /@emotion/react@11.10.0(@babel/core@7.18.10)(@types/react@18.0.17)(react@18.2.0):
+  /@emotion/react@11.10.0(@babel/core@7.18.10)(@types/react@18.0.17)(react@18.3.1):
     resolution: {integrity: sha512-K6z9zlHxxBXwN8TcpwBKcEsBsOw4JWCCmR+BeeOWgqp8GIU1yA2Odd41bwdAAr0ssbQrbJbVnndvv7oiv1bZeQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -465,7 +465,7 @@ packages:
       '@emotion/weak-memoize': 0.3.0
       '@types/react': 18.0.17
       hoist-non-react-statics: 3.3.2
-      react: 18.2.0
+      react: 18.3.1
     dev: false
 
   /@emotion/serialize@1.1.0:
@@ -905,7 +905,7 @@ packages:
   /@tanstack/query-core@4.0.10:
     resolution: {integrity: sha512-9LsABpZXkWZHi4P1ozRETEDXQocLAxVzQaIhganxbNuz/uA3PsCAJxJTiQrknG5htLMzOF5MqM9G10e6DCxV1A==}
 
-  /@tanstack/react-query@4.0.10(react-dom@18.2.0)(react@18.2.0):
+  /@tanstack/react-query@4.0.10(react-dom@18.2.0)(react@18.3.1):
     resolution: {integrity: sha512-Wn5QhZUE5wvr6rGClV7KeQIUsdTmYR9mgmMZen7DSRWauHW2UTynFg3Kkf6pw+XlxxOLsyLWwz/Q6q1lSpM3TQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -919,9 +919,9 @@ packages:
     dependencies:
       '@tanstack/query-core': 4.0.10
       '@types/use-sync-external-store': 0.0.3
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
+      use-sync-external-store: 1.2.0(react@18.3.1)
     dev: false
 
   /@tsconfig/node10@1.0.9:
@@ -966,11 +966,11 @@ packages:
       '@types/react': 18.0.17
     dev: true
 
-  /@types/react-query@1.2.9(react-dom@18.2.0)(react@18.2.0):
+  /@types/react-query@1.2.9(react-dom@18.2.0)(react@18.3.1):
     resolution: {integrity: sha512-xfVcv5zjC6fGf6axPyKxdXNm9RKK9OFzSIyZeCR3r9h4zDuqSpHc8ilTBtfQ1zU/uCx+tAsB+W6vzdCBMu1jtg==}
     deprecated: This is a stub types definition. react-query provides its own type definitions, so you do not need this installed.
     dependencies:
-      react-query: 4.0.0(react-dom@18.2.0)(react@18.2.0)
+      react-query: 4.0.0(react-dom@18.2.0)(react@18.3.1)
     transitivePeerDependencies:
       - react
       - react-dom
@@ -1986,20 +1986,20 @@ packages:
     dev: true
     optional: true
 
-  /react-dom@18.2.0(react@18.2.0):
+  /react-dom@18.2.0(react@18.3.1):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
+      react: 18.3.1
       scheduler: 0.23.0
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-query@4.0.0(react-dom@18.2.0)(react@18.2.0):
+  /react-query@4.0.0(react-dom@18.2.0)(react@18.3.1):
     resolution: {integrity: sha512-qiW+Yvbl+EK8iwPDJAj4qWAKceh+g8Up8jxoNxJbzhV3bNheeyHF3EyynnkDO3S+CYgSwtCUFaP8vOjB62j7xQ==}
     deprecated: Please use @tanstack/react-query for v4+
     peerDependencies:
@@ -2014,9 +2014,9 @@ packages:
     dependencies:
       '@tanstack/query-core': 4.0.10
       '@types/use-sync-external-store': 0.0.3
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
+      use-sync-external-store: 1.2.0(react@18.3.1)
     dev: true
 
   /react-refresh@0.10.0:
@@ -2029,29 +2029,29 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@6.3.0(react-dom@18.2.0)(react@18.2.0):
+  /react-router-dom@6.3.0(react-dom@18.2.0)(react@18.3.1):
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.3.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
+      react-router: 6.3.0(react@18.3.1)
     dev: false
 
-  /react-router@6.3.0(react@18.2.0):
+  /react-router@6.3.0(react@18.3.1):
     resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
     peerDependencies:
       react: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.2.0
+      react: 18.3.1
     dev: false
 
-  /react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -2356,12 +2356,12 @@ packages:
     dev: true
     optional: true
 
-  /use-sync-external-store@1.2.0(react@18.2.0):
+  /use-sync-external-store@1.2.0(react@18.3.1):
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 18.2.0
+      react: 18.3.1
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
