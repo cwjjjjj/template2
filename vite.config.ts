@@ -22,12 +22,6 @@ export default defineConfig({
       { find: /^~/, replacement: "" },
     ],
   },
-  esbuild: {
-    jsxFactory: "jsx",
-    jsxInject: `
-    import { jsx } from '@emotion/react'
-  `,
-  },
   base: IS_PROD ? ORIGIN_BASE : "",
   server: {
     open: `/${name}`,

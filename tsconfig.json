@@ -10,13 +10,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react"
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
